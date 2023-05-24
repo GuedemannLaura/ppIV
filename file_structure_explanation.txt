@@ -1,0 +1,25 @@
+#### Description of the file/ folder structure of this project ####
+
+
+# general advice:
+- every study has a file named 00_main_document. This is the main file for each study that needs to run and accesses all other files
+- after you run the study the outputs/ result summaries are computed in the respective R codes 
+- you will have to set your workingdirectories and some of the paths in each main R code as adviced in the code
+- please don't change the folder stucture of this project 
+
+# Files in the main folder of this project:
+- R codes in the main folder of this project (eg.: IV_functions.R or functions.R)
+are generally utilized in the simulation and the application case stud and are not specific 
+- all R codes in the folders simulationA, simulationB or application_casestudy are specific to this part of the research
+
+Folder: simulationA and simulationB
+- Folders simulationA and simultionB contain all relevant R codes to run the simulation explained in Section 3 of the paper
+- this includes the R codes for the results plots
+- in the folder simulationA additionally, the R codes for the small simulation study on the performance of the Abrahamowicz method outlined in Appendix 5 can be found 
+
+
+Folder: appliction_casestudy
+- This folder contains all R codes needed to run the application case study outlined in Section 4
+- data for this application study cannot be provided but the code will help to frther understand the models used for the causal effect estimation 
+
+
